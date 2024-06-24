@@ -1,0 +1,24 @@
+{
+  "name": "vendor_name/wcs-quete-composer-3-package-management",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "styve",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "gipetto/cowsay": "^1.2"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
